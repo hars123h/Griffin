@@ -1,0 +1,102 @@
+@media only screen and (max-width: 993px){
+    .one {
+      order : 1;   
+    }  
+    .two {
+           order : 3;
+     } 
+     .three {
+      order : 2;
+  } 
+  
+  .padding1 {
+    padding-left: 5.5rem !important;
+  }
+  .two img {
+    width:80%;
+    height: 250px;
+  }
+  .team .card{
+	
+	padding:0px 15px 3px 15px;
+}
+  
+  }
+  @media only screen and (max-width: 768px) {
+    .section-1 .row .col-md-6 .panel {
+      position: initial;
+      width: initial;
+      height: initial;
+    }
+    .section-2 .cover {
+        background-position: -25vmin -10vmin;
+      }
+      .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+      }
+      .numbers .rect h1 {
+        font-size: 2rem;
+      }
+  }  
+  @media only screen and (max-width: 845px){
+     .padding1 {
+       padding-left: 5rem !important;
+     }
+     .padding2 {
+       padding-left: 2.5rem !important;
+     }
+     .square_btn{
+       
+       width: 180px;
+       height:40px;
+     }
+     
+     }
+     
+       
+       
+     @media only screen and (max-width: 540px){
+          .padding1 {
+           padding-left: 5rem !important;
+         }
+         .padding2 {
+           padding-left: 2.5rem !important;
+         } 
+         .square_btn{
+           
+           width: 140px;
+           height:40px;
+         }  
+         }
+         @media only screen and (max-width: 460px){
+             .padding1 {
+              padding-left: 2.5rem !important;
+            }
+            .padding2 {
+              padding-left: 1.5rem !important;
+            } 
+            .square_btn{
+              
+              width: 140px;
+              height:40px;
+            }  
+            }
+            @media(max-width: 991px){
+                .team .card{
+                    width:50%;
+                    margin-bottom:30px;
+                }
+                .space {
+                    padding-left: 0;
+                }
+                .team {
+                    padding:0;
+                }
+            }
+            
+            @media(max-width:550px){
+                .team .card{
+                    width:100%;
+                }
+            }
